@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <button onclick="theme()" class="theme-light" id="theme">Theme
+        <object type="image/svg+xml" data="icons/light_mode_50dp_000000_FILL0_wght400_GRAD0_opsz48.svg" class="icon" id="icon">
+          </object>
+    </button>
+    
+    <div class="container" id="container">
+        <div class="box" id="box"> <h5> Clique nos botões para mudar a minha cor!</h5></div>
+        <div class="buttons">
+            <div class="fileiras">
+                <button onclick="show(event)" class="red" id="#FF0000">Red</button>
+                <button onclick="show(event)" class="blue" id="#0000FF">Blue</button>
+                <button onclick="show(event)" class="green" id="#00ff00">Green</button>
+                <button onclick="show(event)" class="white" id="#FFFFFF">white</button>
+            </div>
+            <div class="fileiras">
+                <button onclick="show(event)" class="black" id="#000000">black</button>
+                <button onclick="show(event)" class="yellow" id="#FFFF00">yellow</button>
+                <button onclick="show(event)" class="pink" id="#FFb7Ab">pink</button>
+                <button onclick="show(event)" class="purple" id="#A020F0">purple</button>
+            </div>
+        </div>
+        
+      </div>
+     
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
